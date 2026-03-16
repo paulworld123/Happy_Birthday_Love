@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>A Special Message</title>
+    <link rel="stylesheet" href="style.css"> </head>
+<body>
+
+    <div id="popup" class="overlay">
+         <div class="popup-content">
+            <h1>Happy 20th! 🎂</h1>
+            <p>I made something for you.</p>
+            <p>For better experince plug-in your earphones</p>
+            <div class="button-group">
+                <button onclick="revealMessage()">Open Letter</button>
+                <button id="custom-btn" onclick="customAction()">Poem</button>
+            </div>
+        </div>
+    </div>
+
+    <audio id="bday-music" loop>
+    <source src="paata.mp3" type="audio/mpeg">
+</audio>
+
+    <div id="message-page" class="hidden">
+    <div class="letter-container">
+        <h2>To You...</h2>
+        <p>
+Hello Prerita,<br> By now you’ve probably realized it’s me, Paul, your Bhalu Kumar.<br>
+
+I didn’t call. I didn’t text. Not because I didn’t want to, but because sometimes love means having the strength to stay silent rather than disturb the peace of the person you care about the most.
+
+Today you turned twenty, a beautiful milestone in your life. You deserve days like that to be filled with laughter, celebration, and dreams that feel within reach. I never wanted my presence to cast even the smallest shadow over that happiness, so I waited until this evening.
+
+But there is one truth I cannot keep to myself.
+I miss you.
+<br><br>
+And I have loved you, truly, deeply, without pretense. The kind of love that doesn’t compete, doesn’t demand, and doesn’t hold you back. The kind that simply wishes to see you rise.
+
+One day you will achieve great things through your own strength and determination. One day you will stand tall and make your father proud of the incredible daughter he raised. And when that day comes, I may not be standing beside you, but believe me, I will be celebrating you with a full heart.
+
+ <br><br>And when that day comes, I will celebrate you not for anything it gives me, but because you deserve every bit of that victory.  <br><br>
+
+Even if life keeps us walking different paths, my prayers will still carry your name. Your victories will still bring me joy, and your struggles will still touch my heart.<br>
+
+Because loving you was never about keeping you close.
+
+
+It was about believing in the person you are destined to become.<br><br>
+
+So go forward without fear. Chase your dreams with everything you have. Become the woman the world has yet to witness.
+
+And when that day comes, the day your light shines so brightly that the world cannot ignore it, remember that somewhere, quietly and sincerely, someone who loved you will still be proud of you.
+
+<br>
+<br>
+</p>
+        <button onclick="goBack()">Back</button>
+    </div>
+</div>
+
+<div id="second-message-page" class="hidden">
+    <div class="letter-container">
+        <h2>The Poem...</h2>
+        <p>
+
+Here's a poem i wrote for you 
+
+<br><br>Some people come and into our lives<br>
+they do not know how beautiful they've made our souls<br>
+Prerita you are the one that im talking about<br>
+ever since you have stepped into my life, it has turned around
+<br><br>
+You filled my boring days with wonder<br>
+now that you are gone what do i do i ponder<br>
+Evening walks beside the endless sea<br>
+eating ice cream and spending time carefree 
+<br><br>
+soft laughters carried away by the wind <br>
+oceanic eyes full of love has kept my heart filled <br>
+warm hugs that felt like a place to rest<br>
+and kisses that made time forget 
+<br><br>
+In those small moments I was the happiest person alive,<br>
+simply because you were there and kept me in the light <br>
+But hearts can be young and minds can be unwise.<br>
+And I was both and i cause you to agonise 
+<br><br>
+There were parts of your heart I was too young to understand<br>
+By the time i could understand you i left us on dry land <br>
+For the ways I was immature,<br>
+for the choices that hurt you,<br>
+I am deeply sorry.<br>
+<br><br>
+Not to ask forgiveness, Not to return to what once was<br>
+Only to say that what we shared was real,<br>
+and it will always remain beautiful as it was
+<br><br>
+If someday the sea calls you again,<br>
+or the sky spills stars across the night,<br>
+I hope those tears do not fall in vain<br>
+but are followed by a shining smile so bright.
+<br><br>
+And when the sun melts into the horizon slow,<br>
+and the waves whisper along the shore,<br>
+if a memory of me visits your soul,<br>
+I hope it doesn't hurt you not anymore.
+<br><br>
+May those memories stay gentle and clear,<br>
+like sunsets we watched fade into gold,<br>
+like warm little laughs only we could hear,<br>
+like stories the ocean quietly told.<br>
+<br>
+So if my name ever crosses your mind,<br>
+let it arrive with a peaceful cheer <br>
+not as a shadow of sorrow behind,<br>
+but as a smile for the days we held dear.<br>
+<br>
+Because what we shared was little and brief,<br>
+was never something to grieve or sever.<br>
+<br>
+It was a moment of quiet belief,<br>
+something beautiful, remembered forever and to revere 
+</p>
+        <button onclick="goBack()">Back</button>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
